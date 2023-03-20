@@ -1,0 +1,36 @@
+
+Estructura de datos - Platzi
+
+    * Algunas formas de acomodar
+    * Modelo que usamos para guardar información
+
+    Formas de organizar
+        * Por categorias
+        * Por tipo
+        * Por colores 
+        * Por precios 
+
+Memoria y cómo se guardan los datos  -> 
+        * Se almacenan en espacios de memoria - memory slot 
+        * El computador busca un espacio libre (address) y los guarda
+
+Tipo de Estructura de datos
+
+    ARRAYS ->   Es una colección de información 
+
+                Data          ["Diego","Andres","Juan","Alejandro"]
+                Posición         0       1       2       3
+
+        Métodos
+                    Método                  Acción
+                    push            Agregar un elemento al final del array 
+                    pop             Borra el último elemento 
+                    unshift         Agrega un elemento al inicio del array 
+                    shift           Borra el primer elemento   
+                    splice          Agregar un elemento en una parte del array 
+
+                    Ver ejemplo -> arrayMetodos.js
+                    
+                     
+
+
