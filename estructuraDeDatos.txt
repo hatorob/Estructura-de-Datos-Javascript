@@ -40,7 +40,43 @@ Tipo de Estructura de datos
                                   deseemos por eso es dinámico 
 
 
+    HASH TABLES -> Son objetos (tabla de hashes) -> similares a los objetos
+               
+                                                key     value
+                                        {
+                                            "nombre": "Diego",
+                                            "nacionalidad": "Mexicano"
+                                        } 
 
+                    Atraves de una función hash crearemos un número de nuestra llave y así
+                    poder almacenar nuestra key y valor en un espacio de nuestra hash table.
+
+                            ID ->    BUCKETS -> value
+                            **************************
+                            *234*               * 6  * 
+                            **************************
+                            *235*               *    *
+                            **************************
+                            *...*               *    *
+    Key: Mandarinas         **************************
+    Value: 20               *237*  Mandarinas   * 20 *
+                            **************************
+                            *...*               *    *
+                            **************************
+                            *239*               *    *
+                            **************************
+
+                    Métodos
+                            insert          Insertar un elemento en la tabla
+                            search          Buscar un elemento por key 
+                            delete          Borrar un elemento 
+                    
+
+                    Colisión de Hash Table -> Se puede generar un mismo hash para diferentes 
+                                            keys y esto puede generar una colisión
+
+
+                          
 
                 
 
