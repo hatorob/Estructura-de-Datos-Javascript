@@ -30,7 +30,19 @@ Tipo de Estructura de datos
                     splice          Agregar un elemento en una parte del array 
 
                     Ver ejemplo -> arrayMetodos.js
-                    
-                     
+        
+        Arrays estáticos y dinamicos
+
+                Array estático -> le indicamos al array cuantas posiciones va a tener 
+                                  esto se le conoce como listas, ya que al ser estático
+                                  no podrá mutar mi array
+                Array Dinámico -> Este array le podremos agregar todos los valores que 
+                                  deseemos por eso es dinámico 
+
+
+
+
+                
+
 
 
