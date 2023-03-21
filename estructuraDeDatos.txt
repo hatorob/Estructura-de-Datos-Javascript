@@ -74,11 +74,22 @@ Tipo de Estructura de datos
 
                     Colisión de Hash Table -> Se puede generar un mismo hash para diferentes 
                                             keys y esto puede generar una colisión
+   
+
+    LINKED LIST ->        head -> nodo -> nodo -> cola(tail)         
+
+                Single linked list
+                        head                                 tail
+                        * 3  *      * 10 *      * 1  *      * 7  *    null
+                        *next*  ->  *next*  ->  *next*  ->  *next*
+                Métodos 
+                        prepend                 Agregar un nodo al inicio
+                        append                  Agregar un nodo al final 
+                        lookup / search         Buscar un nodo 
+                        insert                  Insertar un nodo en la lista 
+                        delete                  Borrar un nodo
 
 
-                          
-
-                
 
 
 
